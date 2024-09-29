@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+}
+
+.swiper{
+    position: relative;
+    height: 400px;
+    width: 300px;
+}
+
+.card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+    user-select: none;
+    overflow: hidden;
+}
+
+img {
+    pointer-events: none;
+    height: 100%;
+}
